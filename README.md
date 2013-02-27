@@ -90,6 +90,10 @@ Allows you to specify http status codes by name rather than magic numbers for mo
     HttpStatus.insufficient_storage
     HttpStatus.not_extended
 
+## Additional methods
+    HttpStatus.valid_codes
+    HttpStatus.from_id http_status_code
+
 
 
 
