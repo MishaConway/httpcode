@@ -25,7 +25,7 @@ Allows you to specify http status codes by name rather than magic numbers for mo
           status.code_and_message
             => [202, "Accepted"]
 
-      If you know the number of the status code, but are not sure what function to call you can use from_id.
+      If you know the number of the status code, but are not sure what function to call you can use from_code.
       Last Example:
           We know we want to use the 200 code, but not sure what function to call.
 
@@ -92,7 +92,7 @@ Allows you to specify http status codes by name rather than magic numbers for mo
 
 ## Additional methods
     HttpStatus.valid_codes
-    HttpStatus.from_id http_status_code
+    HttpStatus.from_code http_status_code
 
 
 
