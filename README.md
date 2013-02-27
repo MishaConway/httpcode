@@ -12,20 +12,21 @@ Or install it yourself as:
 
 Allows you to specify http status codes by name rather than magic numbers for more readable code.
 
-   Example:  HttpStatus.created.code  or HttpStatus.not_modified.code
+      Example:
+            HttpStatus.created.code  or HttpStatus.not_modified.code
 
-   More Examples:
-      status = HttpStatus.accepted
-        => #<StatusCode:0x007fb85403e1c0 @code=202, @message="Accepted", @symbol=:accepted>
-      status.code
-        => 202
-      status.message
-        => "Accepted"
-      status.code_and_message
-        => [202, "Accepted"]
+      More Examples:
+          status = HttpStatus.accepted
+            => #<StatusCode:0x007fb85403e1c0 @code=202, @message="Accepted", @symbol=:accepted>
+          status.code
+            => 202
+          status.message
+            => "Accepted"
+          status.code_and_message
+            => [202, "Accepted"]
 
       If you know the number of the status code, but are not sure what function to call you can use from_id.
-      Example:
+      Last Example:
           We know we want to use the 200 code, but not sure what function to call.
 
           status = HttpStatus.from_code 200
