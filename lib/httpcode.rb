@@ -11,6 +11,10 @@ class StatusCode
     [code, message]
   end
 
+  def to_i
+    code
+  end
+
   #def to_s
   #  code.to_s
   #end
