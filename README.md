@@ -20,6 +20,8 @@ Allows you to specify http status codes by name rather than magic numbers for mo
             => #<StatusCode:0x007fb85403e1c0 @code=202, @message="Accepted", @symbol=:accepted>
           status.code
             => 202
+          status.to_i
+            => 202
           status.message
             => "Accepted"
           status.code_and_message
