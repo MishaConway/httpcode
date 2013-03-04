@@ -39,58 +39,59 @@ Allows you to specify http status codes by name rather than magic numbers for mo
           Now we know that we can call HttpStatus.ok
 
 ## Full list of statuses you can call:
-    HttpStatus.continue
-    HttpStatus.switching_protocols
-    HttpStatus.processing
-    HttpStatus.ok
-    HttpStatus.created
-    HttpStatus.accepted
-    HttpStatus.non_authoritative_information
-    HttpStatus.no_content
-    HttpStatus.reset_content
-    HttpStatus.partial_content
-    HttpStatus.multi_status
-    HttpStatus.im_used
-    HttpStatus.multiple_choices
-    HttpStatus.moved_permanently
-    HttpStatus.found
-    HttpStatus.see_other
-    HttpStatus.not_modified
-    HttpStatus.use_proxy
-    HttpStatus.reserved
-    HttpStatus.temporary_redirect
-    HttpStatus.bad_request
-    HttpStatus.unauthorized
-    HttpStatus.payment_required
-    HttpStatus.forbidden
-    HttpStatus.not_found
-    HttpStatus.method_not_allowed
-    HttpStatus.not_acceptable
-    HttpStatus.proxy_authentication_required
-    HttpStatus.request_timeout
-    HttpStatus.conflict
-    HttpStatus.gone
-    HttpStatus.length_required
-    HttpStatus.precondition_failed
-    HttpStatus.request_entity_too_large
-    HttpStatus.request_uri_too_long
-    HttpStatus.unsupported_media_type
-    HttpStatus.requested_range_not_satisfiable
-    HttpStatus.expectation_failed
-    HttpStatus.im_a_teapot
-    HttpStatus.unprocessable_entity
-    HttpStatus.locked
-    HttpStatus.failed_dependency
-    HttpStatus.upgrade_required
-    HttpStatus.internal_server_error
-    HttpStatus.not_implemented
-    HttpStatus.bad_gateway
-    HttpStatus.service_unavailable
-    HttpStatus.gateway_timeout
-    HttpStatus.http_version_not_supported
-    HttpStatus.variant_also_negotiates
-    HttpStatus.insufficient_storage
-    HttpStatus.not_extended
+    HttpStatus.continue				                100
+    HttpStatus.switching_protocols				    101
+    HttpStatus.processing				            102
+    HttpStatus.ok				                    200
+    HttpStatus.created				                201
+    HttpStatus.accepted				                202
+    HttpStatus.non_authoritative_information		203
+    HttpStatus.no_content				            204
+    HttpStatus.reset_content				        205
+    HttpStatus.partial_content				        206
+    HttpStatus.multi_status				            207
+    HttpStatus.im_used				                226
+    HttpStatus.multiple_choices				        300
+    HttpStatus.moved_permanently				    301
+    HttpStatus.found				                302
+    HttpStatus.see_other				            303
+    HttpStatus.not_modified				            304
+    HttpStatus.use_proxy				            305
+    HttpStatus.reserved				                306
+    HttpStatus.temporary_redirect				    307
+    HttpStatus.bad_request				            400
+    HttpStatus.unauthorized				            401
+    HttpStatus.payment_required				        402
+    HttpStatus.forbidden				            403
+    HttpStatus.not_found				            404
+    HttpStatus.method_not_allowed				    405
+    HttpStatus.not_acceptable				        406
+    HttpStatus.proxy_authentication_required		407
+    HttpStatus.request_timeout				        408
+    HttpStatus.conflict				                409
+    HttpStatus.gone				                    410
+    HttpStatus.length_required				        411
+    HttpStatus.precondition_failed				    412
+    HttpStatus.request_entity_too_large				413
+    HttpStatus.request_uri_too_long				    414
+    HttpStatus.unsupported_media_type				415
+    HttpStatus.requested_range_not_satisfiable		416
+    HttpStatus.expectation_failed				    417
+    HttpStatus.im_a_teapot				            418
+    HttpStatus.unprocessable_entity				    422
+    HttpStatus.locked				                423
+    HttpStatus.failed_dependency				    424
+    HttpStatus.upgrade_required				        426
+    HttpStatus.internal_server_error				500
+    HttpStatus.not_implemented				        501
+    HttpStatus.bad_gateway				            502
+    HttpStatus.service_unavailable				    503
+    HttpStatus.gateway_timeout				        504
+    HttpStatus.http_version_not_supported			505
+    HttpStatus.variant_also_negotiates				506
+    HttpStatus.insufficient_storage				    507
+    HttpStatus.not_extended				            510
+
 
 ## Additional methods
     HttpStatus.valid_codes
