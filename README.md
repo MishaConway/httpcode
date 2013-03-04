@@ -107,3 +107,7 @@ Allows you to specify http status codes by name rather than magic numbers for mo
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+or.......
+If you have any suggestions for how to make this better or extend it, please email me at MishaAConway@gmail.com and I
+will be happy to consider suggestions.
