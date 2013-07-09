@@ -1,4 +1,5 @@
 require "httpcode/version"
+require "active_support/core_ext/class/attribute_accessors"
 
 class StatusCode
   attr_reader :symbol, :code, :message
@@ -19,6 +20,10 @@ class StatusCode
   #  code.to_s
   #end
 end
+
+
+
+
 
 class HttpStatus
   def self.valid_codes
