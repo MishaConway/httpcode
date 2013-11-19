@@ -8,6 +8,7 @@ Gem::Specification.new do |gem|
   gem.version       = Httpcode::VERSION
   gem.authors       = ["Misha Conway"]
   gem.email         = ["MishaAConway@gmail.com"]
+  gem.license = 'MIT'
 
 
   gem.summary       = %q{Allows you to specify http status codes by name rather than magic numbers for more readable code.
